@@ -23,7 +23,7 @@ const navlink = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between h-[8vh] md:h-[9vh] lg:h-[10vh] 2xl:h-[11vh] px-5 md:px-12.5 lg:px-25 2xl:px-35 bg-gray-100">
+    <nav className="flex items-center justify-between h-[8vh] md:h-[9vh] lg:h-[10vh] 2xl:h-[11vh] px-5 md:px-12.5 lg:px-25 2xl:px-35 bg-gray-100 sticky top-0 left-0 z-50">
       <Link to={"/"}>
         <img className="h-10 md:h-11 lg:h-13 2xl:h-15" src={logo} alt="logo" />
       </Link>
