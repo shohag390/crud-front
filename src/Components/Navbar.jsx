@@ -8,10 +8,6 @@ const navlink = [
     display: "Home",
   },
   {
-    path: "/static-users",
-    display: "Static Users",
-  },
-  {
     path: "/users",
     display: "Users",
   },
